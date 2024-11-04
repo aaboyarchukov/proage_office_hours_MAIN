@@ -1,0 +1,30 @@
+.header {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.title {
+  width: 100%;
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+}
+.backButton {
+  position: absolute;
+  top: -5px;
+  left: -2rem;
+}
+
+.button {
+  background: transparent;
+  border: none;
+}
+
+.block {
+  margin-top: 1rem;
+}

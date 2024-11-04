@@ -1,0 +1,73 @@
+.class-card {
+    width: 100%;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+}
+
+.class-card__info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.class-card__info__container {
+    width: 100%;
+}
+.classCard__container{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-card__info__name {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+
+.class-card__btn {
+    padding: 0.5em 1.2em;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    background-color: #9C7CFC;
+    color: #FFFBFB;
+    font-weight: 600;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.class-card__btn:disabled {
+    background-color: #BAB7C1;
+    cursor: default;
+}
+
+.class-card__info__date {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.class-card__info__time{
+    margin-top: 0.4rem;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.class-card__info__teacher {
+    margin-top: 1rem;
+}
+
+.class-card__info__image {
+}
+
+
+.class-card__info__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}

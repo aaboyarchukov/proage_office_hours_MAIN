@@ -1,0 +1,147 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 93vh;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.contentWrapper {
+    flex: 1;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.calendar::-webkit-scrollbar {
+    display: none;
+}
+
+.calendar__day {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 0.5rem;
+    background: #EBEBEB;
+    color: black;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    font-size: 1.2em;
+}
+
+.calendar__day:hover {
+    background: #9C7CFC;
+    color: white;
+    cursor: pointer;
+}
+
+
+.calendar__day:disabled {
+    color: #8C8C8C;
+    cursor: not-allowed;
+}
+
+.calendar__day[disabled]:hover {
+    color: #8C8C8C;
+    background: #EBEBEB;
+    cursor: not-allowed;
+}
+
+.colendar__day__holiday {
+    color: red;
+}
+
+.calendar__day__holiday[disabled] {
+    color: red;
+}
+
+.calendar__day__active {
+    background: #9C7CFC;
+    color: white;
+}
+
+.month {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.timepicker {
+    margin-top: 1.5rem;
+}
+
+.timepicker__phase {
+    margin-top: 1rem;
+}
+
+.timepicker__phase__name {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.timepicker__phase__timeSlot {
+    display: flex;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.timepicker__phase__timeSlot__time {
+    border: none;
+    background: #EBEBEB;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.timezoneInfo {
+    margin-top: 1.2rem;
+}
+
+.suggestButton {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.suggestButton__button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #9C7CFC;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.suggestButton__button:hover {
+    background-color: #7e61e2;
+}
+
+.selectedTime {
+    background-color: #00c500;
+    color: white;
+}
+
+

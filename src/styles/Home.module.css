@@ -1,0 +1,51 @@
+.main {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pickerContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    gap: 1rem;
+}
+
+
+.pickerBox {
+    display: flex;
+    flex-direction: column;
+    background: #EBEBEB;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.pickerBox__title {
+    font-size: 1.1em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pickerBox__image {
+    margin-top: 0.5rem;
+}
+
+.pickerBox__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.class__container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.picker__title{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,145 @@
+.submit__title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0.3rem;
+}
+
+.teacherSubmit__container {
+    margin-top: 2rem;
+}
+
+.timeSubmit__container {
+    margin-top: 2rem;
+}
+
+.teacherSubmitCard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 20px;
+    background-color: #EBEBEB;
+    position: relative;
+    padding: 8px 9px;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.TeacherSubmitCard__social__telegram{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.timeSubmitCard__course{
+    margin-top: 0.5rem;
+}
+
+.TeacherSubmitCard__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.TeacherSubmitCard__name {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+}
+
+.TeacherSubmitCard__position {
+    margin-top: 0.5rem;
+}
+
+.TeacherSubmitCard__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.TeacherSubmitCard__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TeacherSubmitCard__social {
+    margin-bottom: 0.5rem;
+}
+
+.timeSubmitCard {
+    display: flex;
+    background: #EBEBEB;
+    border-radius: 20px;
+    padding: 16px 18px;
+    position: relative;
+    justify-content: space-between;
+    gap: 1rem;
+     margin-top: 0.5rem;
+}
+
+.timeSubmitCard__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.timeSubmitCard__date {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+}
+
+.timeSubmitCard__time {
+    margin-top: 0.2rem;
+    font-size: 1.2em;
+    margin-top: 0.5rem;
+}
+
+.timeSubmitCard__duration {
+    margin-top: 0.5rem;
+    margin-top: 1rem;
+}
+.timeSubmitCard__course{
+    margin-top: 0.5rem;
+}
+
+.submit__end {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.submit__button {
+    background: #9C7CFC;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.question__container{
+    margin-top: 2rem;
+
+}
+
+.question__textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+    outline: none;
+    resize: none;
+}
+
+.error {
+    border: 3px solid red;
+}

@@ -1,0 +1,44 @@
+.teacherCard{
+    border-radius: 20px;
+    background-color: #EBEBEB;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 8px 9px;
+    gap: 1rem;
+}
+
+.teacherCard__image{
+    
+}
+
+.teacherCard__image img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.teacherCard__info__name{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+}
+
+.teacherCard__info__position{
+    margin-top: 0.5rem;
+}
+
+.teacherCard__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teacherCard__social{
+    margin-bottom: 0.5rem;
+}
+.teacherCard__social__telegram{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
