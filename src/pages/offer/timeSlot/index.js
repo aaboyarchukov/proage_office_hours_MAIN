@@ -93,7 +93,7 @@ function OfferTimeSlot() {
                         {selectedTime && selectedTime.timeSlots["Утро"].length != 0 && <div className={styles.timepicker__phase}>
                             <div className={styles.timepicker__phase__name}>Утро</div>
                             <div className={styles.timepicker__phase__timeSlot}>
-                                {selectedTime.timeSlots["Утро"].slots.map((time, index) => {
+                                {selectedTime.timeSlots["Утро"].map((time, index) => {
                                     return <button onClick={() => handleClickTime(time.id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
                                 })}
 
