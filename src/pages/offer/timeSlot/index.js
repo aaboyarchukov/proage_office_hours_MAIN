@@ -27,6 +27,7 @@ function OfferTimeSlot() {
         console.log(freeSlots, "слоты");
         const info = getOfficeHours(freeSlots.slots, "");
         setCalendar(info);
+        console.log(info);
 
         // find closest day with classes
         for (const key in info) {
@@ -69,7 +70,7 @@ function OfferTimeSlot() {
     }
 
     function handleClickTime(iden) {
-        setSlotID(iden);
+        setSlotID(iden.toString());
         router.push(`/offer/submit`);
     }
 
