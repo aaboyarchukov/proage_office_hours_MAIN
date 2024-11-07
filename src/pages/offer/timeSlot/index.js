@@ -94,7 +94,7 @@ function OfferTimeSlot() {
                             <div className={styles.timepicker__phase__name}>Утро</div>
                             <div className={styles.timepicker__phase__timeSlot}>
                                 {selectedTime.timeSlots["Утро"].map((time, index) => {
-                                    return <button onClick={() => handleClickTime(time.id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
+                                    return <button onClick={() => handleClickTime(time.slots[0].id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
                                 })}
 
                             </div>
@@ -104,7 +104,7 @@ function OfferTimeSlot() {
                             <div className={styles.timepicker__phase__name}>День</div>
                             <div className={styles.timepicker__phase__timeSlot}>
                                 {selectedTime.timeSlots["День"].map((time, index) => {
-                                    return <button onClick={() => handleClickTime(time.id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
+                                    return <button onClick={() => handleClickTime(time.slots[0].id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
                                 })}
                             </div>
                         </div>}
@@ -113,7 +113,7 @@ function OfferTimeSlot() {
                             <div className={styles.timepicker__phase__name}>Вечер</div>
                             <div className={styles.timepicker__phase__timeSlot}>
                                 {selectedTime.timeSlots["Вечер"].map((time, index) => {
-                                    return <button onClick={() => handleClickTime(time.id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
+                                    return <button onClick={() => handleClickTime(time.slots[0].id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
                                 })}
                             </div>
                         </div>}
@@ -122,7 +122,7 @@ function OfferTimeSlot() {
                             <div className={styles.timepicker__phase__name}>Ночь</div>
                             <div className={styles.timepicker__phase__timeSlot}>
                                 {selectedTime.timeSlots["Ночь"].map((time, index) => {
-                                    return <button onClick={() => handleClickTime(time.id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
+                                    return <button onClick={() => handleClickTime(time.slots[0].id)} key={index} className={styles.timepicker__phase__timeSlot__time}>{time.time}</button>
                                 })}
                             </div>
                         </div>}
