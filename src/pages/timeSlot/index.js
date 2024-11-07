@@ -95,6 +95,7 @@ const TimeSlot = () => {
     }
 
     function handleClickTime(slots) {
+        console.log(slots, data)
         if (router.query.type === 'suggestions') {
             const newSelectedTimes = [...selectedTimes];
             console.log(newSelectedTimes);
