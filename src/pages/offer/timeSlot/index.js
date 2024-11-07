@@ -40,11 +40,11 @@ function OfferTimeSlot() {
 
     useEffect(() => {
         if (selectedTime) {
-            console.log(selectedTime, "день");
+            console.log(selectedTime, "время");
         }
 
         if (selectedDay) {
-            console.log(selectedDay);
+            console.log(selectedDay, "день");
         }
 
     }, [selectedDay, selectedTime])
