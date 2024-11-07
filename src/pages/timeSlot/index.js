@@ -30,7 +30,7 @@ const TimeSlot = () => {
     const [correctData, setCorrectData] = useState();
     const [calendar, setCalendar] = useState();
     const [correctMonth, setCorrectMonth] = useState();
-    const [selectedId, setSelectedId] = useLocalStorageState('slotID');
+    const [selectedId, setSelectedId] = useLocalStorageState('timeID');
     const [selectedTimes, setSelectedTimes] = useState([]);
     const [webApp, setWebApp] = useState();
 
@@ -95,7 +95,6 @@ const TimeSlot = () => {
     }
 
     function handleClickTime(slots) {
-        console.log(slots, data)
         if (router.query.type === 'suggestions') {
             const newSelectedTimes = [...selectedTimes];
             console.log(newSelectedTimes);
