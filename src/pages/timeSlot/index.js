@@ -30,7 +30,7 @@ const TimeSlot = () => {
     const [correctData, setCorrectData] = useState();
     const [calendar, setCalendar] = useState();
     const [correctMonth, setCorrectMonth] = useState();
-    const [selectedId, setSelectedId] = useLocalStorageState('timeID');
+    const [selectedId, setSelectedId] = useLocalStorageState('slotID');
     const [selectedTimes, setSelectedTimes] = useState([]);
     const [webApp, setWebApp] = useState();
 
