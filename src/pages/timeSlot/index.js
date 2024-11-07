@@ -110,7 +110,7 @@ const TimeSlot = () => {
             setSelectedTimes(newSelectedTimes);
         } else {
             if (slots.length === 1) {
-                setSelectedId(slots[0].id);
+                setSelectedId(slots[0].id.toString());
                 router.push(`/submit`);
             } else {
                 const slotIds = slots.map(slot => slot.id);
