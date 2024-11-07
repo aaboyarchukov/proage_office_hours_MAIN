@@ -24,7 +24,7 @@ function OfferTimeSlot() {
     useEffect(() => {
         if (loading) return;
         if (error) return;
-        console.log(freeSlots);
+        console.log(freeSlots, "слоты");
         const info = getOfficeHours(freeSlots.slots, "");
         setCalendar(info);
 
