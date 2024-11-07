@@ -70,8 +70,9 @@ function OfferTimeSlot() {
     }
 
     function handleClickTime(iden) {
-        setSlotID(iden.toString());
-        router.push(`/offer/submit`);
+        conole.log(iden);
+        setSlotID(iden);
+        //router.push(`/offer/submit`);
     }
 
 
